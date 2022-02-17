@@ -4,3 +4,11 @@ body {
     font-family: 'Poppins', sans-serif !important;
     font-family: 'Sriracha', cursive !important;
 }
+
+.sidebar-link, a.sidebar-link{
+    font-size: 18px;
+}
+
+.sidebar-dropdown .sidebar-link{
+    font-size: 16px;
+}

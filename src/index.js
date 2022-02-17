@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import routes from './routes';
+import Routess from './routes';
 import {BrowserRouter as Router} from 'react-router-dom'
 import './styles/custom.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      {routes}
+    <Router basename={'/reactwebapi'}>
+      <Routess />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
